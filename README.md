@@ -2,7 +2,7 @@
 
 Run:
 ```
-nix develop --command make
+nix develop --command make run
 ```
 
 Develop:
