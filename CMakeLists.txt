@@ -11,7 +11,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 find_package(folly REQUIRED)
 
 # Add the executable
-add_executable(async_app a.cpp)
+add_executable(async_app src/main.cpp)
 
 target_link_libraries(async_app PRIVATE
     folly

@@ -4,3 +4,5 @@
 nix develop
 make
 ```
+
+Use `clangd` as LSP server.
