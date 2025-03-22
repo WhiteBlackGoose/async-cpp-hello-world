@@ -18,9 +18,9 @@ folly::coro::Task<void> doWork(int id, std::chrono::milliseconds delay) {
 
 folly::coro::Task<void> runAll() {
     co_await folly::coro::collectAll(
-        doWork(1, 9000ms),
-        doWork(2, 5000ms),
-        doWork(3, 11000ms)
+        doWork(1, 900ms),
+        doWork(2, 500ms),
+        doWork(3, 1100ms)
     );
 }
 

@@ -13,6 +13,7 @@
           cmake
           clang-tools
           llvmPackages.clang
+          gnumake
         ];
 
         buildInputs = with pkgs; [
