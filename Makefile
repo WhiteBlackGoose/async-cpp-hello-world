@@ -4,7 +4,7 @@ run: build
 build: cache
 	cmake --build build
 
-cache: clean
+cache:
 	cmake . -B build
 
 clean:
